@@ -3,17 +3,11 @@ package com.example.mvvmprac.ui.auth
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ProgressBar
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.mvvmprac.R
-import com.example.mvvmprac.data.db.AppDatabase
 import com.example.mvvmprac.data.db.entities.User
-import com.example.mvvmprac.data.network.MyApi
-import com.example.mvvmprac.data.network.NetworkConnectionInterceptor
-import com.example.mvvmprac.data.repositories.UserRepository
 import com.example.mvvmprac.databinding.ActivityLoginBinding
 import com.example.mvvmprac.ui.home.HomeActivity
 import com.example.mvvmprac.util.hide
