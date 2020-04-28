@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MVVMPrac</string>
+    <string name="user">User</string>
+    <string name="home">Home</string>
+    <string name="quotesFragment">quotesFragment</string>
+    <string name="quotes">Quotes</string>
+    <string name="sushant_kandel">Sushant kandel</string>
 </resources>
